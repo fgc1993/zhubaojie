@@ -1,0 +1,343 @@
+#nav{
+	height: 35px;
+	border-bottom: 2px solid #ff6699;
+}
+#nav .nav1{
+	width: 1200px;
+	height: 35px;
+		margin: 0 auto;
+}
+#nav .nav1 .all{
+	height: 17px;
+	width: 70px;
+	/*line-height: 35px;*/
+	/*text-align: center;*/
+	padding: 9px 60px;
+    font-size:16px; 
+    float: left;
+    background: #ed3577;
+    color: white;
+    position: relative;
+
+}
+#nav .nav1 .all:hover{
+	text-decoration: underline;
+
+}
+#nav .nav1 .all .all_con{
+	height: 420px;
+	width: 190px;
+	background: #ff6699;
+	position: absolute;
+    top:35px;
+    left: 0;
+    border-top: 2px solid #d42e69;
+    z-index: 10;
+    display: none;
+}
+#nav .nav1 .all:hover .all_con{
+	display: block;
+}
+#nav .nav1 .all .all_con a{
+	color: white;
+	padding-right: 10px;
+}
+/*效果css*/
+#nav .nav1 .all .all_con .list{
+	height: 80px;
+	width: 180px;
+	font-size: 12px;
+	padding-left: 10px;
+	border-bottom: 1px solid #fd85ad;
+	position: relative;
+}
+#nav .nav1 .all .all_con .list a{
+	color: white;
+	padding-right: 10px;
+}
+#nav .nav1 .all .all_con .list .list_con{
+	width: 1005px;
+	min-height: 300px;
+	background: #fafafa;
+	border: 1px solid #f69;
+	padding-bottom: 10px;
+	position: absolute;
+	top: -1px;
+	left: 189px;
+	padding:10px 10px;
+	display: none;
+}
+#nav .nav1 .all .all_con .list h4{
+    font-size: 14px;
+    padding-top: 10px;
+}
+#nav .nav1 .all .all_con .list .list_con a{
+	color: #150202;
+}
+#nav .nav1 .all .all_con .list .list_con .left-con{
+	width: 70px;float: left;text-align: center;line-height: 34px;
+}
+#nav .nav1 .all .all_con .list .list_con .left-con a{
+	color: pink;
+}
+#nav .nav1 .all .all_con .list .list_con .right-con{
+	width: 910px;
+	float: left;
+	padding:3px 0;
+	border-bottom: 1px solid #eee;
+	line-height: 28px;
+}
+#nav .nav1 .all .all_con .list .list_con .right-con a{
+	padding:0 10px;
+	border-left: 1px solid #eee;
+}
+
+
+
+#nav .nav1 .all .all_con .noborder{
+	border:none;
+}
+#nav .nav1 .nav_con{
+	height: 35px;
+	width: 750px;
+	float: left;
+	line-height: 35px;
+}
+#nav .nav1 .nav_con li{
+	float: left;
+	font-size: 14px;
+	padding: 0 20px;
+}
+#nav .nav1 .nav_con li a{
+	color: #555555;
+}
+#nav .nav1 .nav_con .col a{
+	color: #ff6699;
+}
+#nav .nav1 .nav_con li a:hover{
+	color: #ff6699;
+	text-decoration: underline;
+}
+
+#nav .nav1 .all .all_con .list:hover .list_con{
+	display: block;
+}
+#nav .nav1 .all .all_con .list:hover{
+	background: white;	
+	border: 1px solid #d42e69;
+}
+#nav .nav1 .all .all_con .list:hover h4 a{color: #ff7d99;}
+#nav .nav1 .all .all_con .list:hover p a{
+	color: #ff6699;
+}
+#nav .nav1 .all .all_con .list .list_con .left-con a:hover{
+	text-decoration: underline;
+}
+#nav .nav1 .all .all_con .list .list_con .right-con a:hover{
+	text-decoration: underline;
+}
+
+#shop{
+	height: 464px;	
+	margin-top: 10px;
+}
+#shop .shop{
+	width: 1200px;
+	height: 464px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+#shop .shop .leftbox{
+	box-sizing: border-box;
+	height: 463px;
+	width: 368px;
+	
+	padding:18px 23px 0;
+	float: left;
+}
+#shop .shop .leftbox .img1{
+	height: 382px;	
+	border-bottom:1px dashed #eee; 
+}
+#shop .shop .leftbox .img1 dt{
+	padding-bottom: 5px;
+}
+#shop .shop .leftbox .img1 dd{
+	float: left;
+	padding:1px;
+	border: 1px solid #eeeeee;
+}
+#shop .shop .leftbox .x{
+	box-sizing: border-box;
+	height: 40px;
+	padding:10px 0;
+	font-size: 14px;
+}
+#shop .shop .leftbox .x .resave{
+	height: 20px;
+	width: 80px;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	float: left;
+}
+#shop .shop .leftbox .x .resave a{
+	color: #777;
+}
+#shop .shop .leftbox .x .jubao{
+	height: 20px;
+	width: 40px;
+	line-height: 20px;
+	text-align: center;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	float: right;
+}
+#shop .shop .leftbox .x .jubao a{
+	color: #777;
+}
+#shop .shop .centerbox{
+	height: 462px;
+	width: 600px;
+	float: left;
+	background: #f3f3f3;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+#shop .shop .centerbox .sm{
+	padding-left: 10px;
+	font-size: 16px;
+	color: black;
+	font-weight: 700;
+}
+#shop .shop .centerbox .price{
+	height: 125px;
+	width: 590px;
+	padding-left: 10px;
+	background: #ed3577;
+	margin: 20px 0;
+}
+#shop .shop .centerbox .price .p1{
+	color: white;
+	padding-top: 20px;
+	font-size: 14px;
+}
+#shop .shop .centerbox .price .p1 span{
+	text-decoration: line-through;
+}
+#shop .shop .centerbox .price .p2{
+	color: white;
+	padding-top: 20px;
+	font-size: 16px;
+}
+#shop .shop .centerbox .price .p2 span{
+	font-size: 18px;
+}
+#shop .shop .centerbox .buy{
+	height: 265px;
+	padding-left: 10px;
+	background: #fafafa;
+}
+#shop .shop .centerbox .buy .pp{
+	font-size: 16px;
+	color: #666666;
+	padding: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+#shop .shop .centerbox .buy .amount{
+	padding: 20px 0;
+	height: 30px;
+	position: relative;
+
+}
+#shop .shop .centerbox .buy .amount .mon{
+	padding:6px 0;
+	width: 20px;
+	text-align: left;
+   
+}
+#shop .shop .centerbox .buy .amount .box span{
+	display: block; 
+	height: 14px;
+	width: 14px;
+	font-size: 12px;
+	border:1px solid #ccc;
+	text-align: center;
+	line-height: 14px;
+	position: absolute;
+	top: 20px;
+	left: 103px;
+}
+#shop .shop .centerbox .buy .amount .box .minus{
+	top:35px;
+}
+#shop .shop .centerbox .buy .last{
+	height: 30px;
+}
+#shop .shop .centerbox .buy .last a{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid #eee; 
+	color: white;
+	background: #ba7538;
+}
+#shop .shop .centerbox .buy .last .ad{
+	background: #d93600;
+}
+#shop .shop .rightbox{
+	height: 462px;
+	width: 228px;
+	
+	float: left;
+}
+
+#deta{
+	min-height: 400px;
+}
+#deta .deta{
+	min-height: 400px;
+	width: 1200px;
+	margin: 0 auto;
+}
+#deta .deta .list{
+	height: 32px;
+	width: 1200;
+	margin: 10px auto;
+	border:1px solid #ccc;
+}
+#deta .deta .list li{
+	height: 32px;
+	width: 100px;
+	text-align: center;
+	float: left;
+	border-right:1px solid #ccc;
+	line-height: 32px;
+}
+#deta .deta  .xq{
+	height: 60px;
+	width: 1200px;
+	border: 1px solid #ccc;
+} 
+#deta .deta  .xq b{
+	font-weight: normal;
+	padding-right: 100px;
+	font-size: 14px;
+	color: #666666;
+}
+#deta .deta  .pinjia{
+	height: 60px;
+	width: 1200px;
+	border: 1px solid #ccc;
+	display: none;
+} 
+#deta .deta .cen{
+	width: 798px;
+	margin: 0 auto;
+}

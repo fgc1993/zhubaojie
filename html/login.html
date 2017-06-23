@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登陆</title>
+	 <style type="text/css">
+         *{
+         	margin: 0;padding: 0;
+         }
+         a{text-decoration: none;}
+         #login{
+         	height: 100px;
+         	border-bottom:1px solid #ff6699; 
+         }
+          #login .log{
+          	width: 1200px;
+          	height: 100px;
+          	margin: 0 auto;
+          }
+           #login .log .left{
+           	float: left;
+           	margin: 18px 0;
+           }
+           #login .log .right{
+           	height: 20px;
+           	width: 320px;
+           	font-size: 12px;
+           	float: right;
+           	margin-top: 70px;
+           }
+           #login .log .right a{
+           	color: #ff7da5;
+           }
+
+           #next{
+           	height: 700px;
+           }
+           #next .next_con{
+           	width: 1200px;
+           	height: 700px;
+           	background: url("img/login/bg.jpg") no-repeat left 120px;
+           }
+            #next .next_con  .kk{
+            	height: 400px;
+            	width: 420px;
+            	padding: 20px;
+            	border: 1px solid #e1e1e1;
+            	background: #f9f9f9;
+            	float: right;
+            	margin-top: 100px;
+            	margin-right: 60px;
+            	overflow: hidden;
+            }
+            #next .next_con  .kk h3{
+            	height: 25px;
+            	width: 410px;
+            	padding-left: 10px;
+            	border-bottom: 2px solid #ff6699;
+            	font-size: 16px;
+            	font-weight: normal;
+            }
+            #next .next_con  .kk .usename{
+            	height:54px;
+				width: 340px;
+				border: 1px solid #ccc;
+				margin: 20px auto;
+				line-height: 54px;
+				font-size: 14px;
+				padding-left: 10px; 
+				background: white;
+            }
+            #next .next_con  .kk .usename input{
+            	border:none;
+            	padding-left: 14px;
+            	height:53px;
+            	width: 270px;
+              outline:none;
+            }
+            #next .next_con  .kk .password input{
+            	width: 284px;
+            }
+            #next .next_con  .kk p{
+            	width: 200px;
+            	height: 50px;
+            	margin: 30px auto;
+            }
+            #next .next_con  .kk p button{
+            	height: 50px;
+            	width: 100px;
+            	line-height: 50px;
+            	text-align: center;
+            	font-size: 20px;
+            	background: #ff6699;
+            	border: none;
+            	border-radius: 10px 10px;
+            }
+            #next .next_con  .kk p a{
+            	color: #ed3577;
+            }
+            #next .next_con  .kk .check{
+              height: 20px;
+              width: 340px;
+              margin-left: 35px;
+            }
+	 </style>
+</head>
+<body>
+	<div id="login">
+	<div class="log">
+      <div class="left">
+		<a href="../index.html"><img src="img/login/logo.jpg" ></a>
+      </div>
+      <div class="right">
+           <p>你好，欢迎来到中国最大的珠宝交易平台&nbsp;&nbsp;<a href="register.html">注册新账号</a></p>
+      </div>
+      </div>
+	</div>
+	<div id="next">
+        <div class="next_con">
+           <div class="kk">
+              <h3>用户登录</h3>
+              <div class="usename usename1">
+                   用户名：<input type="text" placeholder="邮箱/手机号/账号">
+              </div>
+              <div class="password usename">
+					密码：<input type="password" placeholder="请输入密码">
+              </div>
+              <div class="check">
+              <input type="checkbox" class="rem">记住密码
+              </div>
+              <p>
+              <button id="btn">登录</button>
+              <a href="#">忘记密码</a>
+              </p>
+           </div>
+        </div>
+	</div>
+  <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="js/login.js"></script>
+</body>
+</html>

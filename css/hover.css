@@ -1,0 +1,26 @@
+#nav .nav1 .all .all_con .list:hover .list_con{
+	display: block;
+}
+#nav .nav1 .all .all_con .list:hover{
+	background: white;	
+	border: 1px solid #d42e69;
+}
+#nav .nav1 .all .all_con .list:hover h4 a{color: #ff7d99;}
+#nav .nav1 .all .all_con .list:hover p a{
+	color: #ff6699;
+}
+#nav .nav1 .all .all_con .list .list_con .left-con a:hover{
+	text-decoration: underline;
+}
+#nav .nav1 .all .all_con .list .list_con .right-con a:hover{
+	text-decoration: underline;
+}
+
+#floor .floor_l .floor_lc .floor_right ul li a .name:hover{
+color: pink;	
+}
+#floor .floor_l .floor_lc .floor_right ul li:hover{
+	position: relative;
+	border-color: red;
+	z-index: 6;
+}

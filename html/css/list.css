@@ -1,0 +1,235 @@
+#xdh{
+	height: 30px;
+}
+#xdh .xdh_con{
+	height: 30px;
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 30px;
+}
+#xdh .xdh_con a{
+	color: #777777;
+	font-size: 14px;
+}
+#xdh .xdh_con a:hover{
+	text-decoration: underline;
+	color: #680313;
+}
+#xdh .xdh_con span{
+	color: #999999;
+	font-size: 14px;
+}
+
+#container{
+	min-height: 370px;
+}
+#container .container_con{
+	min-height: 370px;
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fefefe;
+}
+#container .container_con .con{
+	border: 1px solid #ccc;
+	height: 364px;
+	width: 214px;
+	float: left;
+	margin: 3px 5px;
+	padding: 3px;
+/*	display: block;*/
+}
+#container .container_con .con:hover{
+	border-color: red;
+}
+#container .container_con .con .img-t{
+	height: 214px;
+	width: 214px;
+}
+#container .container_con .con .img-t img{
+	height: 214px;
+	width: 214px;
+}
+#container .container_con .con .price{
+	width: 214px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	background: url(../img/xing.jpg) no-repeat right center;
+}
+#container .container_con .con .sm{
+	width: 214px;
+	height: 56px;
+	line-height: 18px;
+	font-size: 12px;
+	color: #7a7a7a;
+}
+#container .container_con .con .link{
+	height: 26px;
+	width: 214px;
+}
+#container .container_con .con .link .link_left{
+	display: inline-block;
+	height: 26px;
+	width: 80px;
+	text-decoration: underline;
+	float: left;
+	color: #cfd5e2;
+	font-size: 12px;
+	text-align: center;
+	line-height: 26px;
+}
+#container .container_con .con .link .link_right{
+	display: inline-block;
+	height: 26px;
+	width: 80px;
+	background: #ed3577;
+	float: right;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	line-height: 26px;
+}
+
+
+
+
+
+#nav{
+	height: 35px;
+	border-bottom: 2px solid #ff6699;
+}
+#nav .nav1{
+	width: 1200px;
+	height: 35px;
+		margin: 0 auto;
+}
+#nav .nav1 .all{
+	height: 17px;
+	width: 70px;
+	/*line-height: 35px;*/
+	/*text-align: center;*/
+	padding: 9px 60px;
+    font-size:16px; 
+    float: left;
+    background: #ed3577;
+    color: white;
+    position: relative;
+
+}
+#nav .nav1 .all:hover{
+	text-decoration: underline;
+
+}
+#nav .nav1 .all .all_con{
+	height: 420px;
+	width: 190px;
+	background: #ff6699;
+	position: absolute;
+    top:35px;
+    left: 0;
+    border-top: 2px solid #d42e69;
+    z-index: 10;
+    display: none;
+}
+#nav .nav1 .all:hover .all_con{
+	display: block;
+}
+#nav .nav1 .all .all_con a{
+	color: white;
+	padding-right: 10px;
+}
+/*效果css*/
+#nav .nav1 .all .all_con .list{
+	height: 80px;
+	width: 180px;
+	font-size: 12px;
+	padding-left: 10px;
+	border-bottom: 1px solid #fd85ad;
+	position: relative;
+}
+#nav .nav1 .all .all_con .list a{
+	color: white;
+	padding-right: 10px;
+}
+#nav .nav1 .all .all_con .list .list_con{
+	width: 1005px;
+	min-height: 300px;
+	background: #fafafa;
+	border: 1px solid #f69;
+	padding-bottom: 10px;
+	position: absolute;
+	top: -1px;
+	left: 189px;
+	padding:10px 10px;
+	display: none;
+}
+#nav .nav1 .all .all_con .list h4{
+    font-size: 14px;
+    padding-top: 10px;
+}
+#nav .nav1 .all .all_con .list .list_con a{
+	color: #150202;
+}
+#nav .nav1 .all .all_con .list .list_con .left-con{
+	width: 70px;float: left;text-align: center;line-height: 34px;
+}
+#nav .nav1 .all .all_con .list .list_con .left-con a{
+	color: pink;
+}
+#nav .nav1 .all .all_con .list .list_con .right-con{
+	width: 910px;
+	float: left;
+	padding:3px 0;
+	border-bottom: 1px solid #eee;
+	line-height: 28px;
+}
+#nav .nav1 .all .all_con .list .list_con .right-con a{
+	padding:0 10px;
+	border-left: 1px solid #eee;
+}
+
+
+
+#nav .nav1 .all .all_con .noborder{
+	border:none;
+}
+#nav .nav1 .nav_con{
+	height: 35px;
+	width: 750px;
+	float: left;
+	line-height: 35px;
+}
+#nav .nav1 .nav_con li{
+	float: left;
+	font-size: 14px;
+	padding: 0 20px;
+}
+#nav .nav1 .nav_con li a{
+	color: #555555;
+}
+#nav .nav1 .nav_con .col a{
+	color: #ff6699;
+}
+#nav .nav1 .nav_con li a:hover{
+	color: #ff6699;
+	text-decoration: underline;
+}
+
+#nav .nav1 .all .all_con .list:hover .list_con{
+	display: block;
+}
+#nav .nav1 .all .all_con .list:hover{
+	background: white;	
+	border: 1px solid #d42e69;
+}
+#nav .nav1 .all .all_con .list:hover h4 a{color: #ff7d99;}
+#nav .nav1 .all .all_con .list:hover p a{
+	color: #ff6699;
+}
+#nav .nav1 .all .all_con .list .list_con .left-con a:hover{
+	text-decoration: underline;
+}
+#nav .nav1 .all .all_con .list .list_con .right-con a:hover{
+	text-decoration: underline;
+}

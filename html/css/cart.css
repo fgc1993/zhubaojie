@@ -1,0 +1,237 @@
+#shop{
+	height: 55px;
+}
+#shop .shop1{
+	height: 55px;
+	width: 1200px;
+	margin: 0 auto;
+	line-height: 55px;
+}
+#shop .shop1 h2 span{
+	font-size: 14px;
+	color: #aaaaaa;
+	padding-left: 5px;
+}
+#list{
+	min-height: 120px;	
+}
+#list .list_con{
+	min-height: 120px;
+	width: 1200px;
+	margin: 0 auto;	
+}
+#list .list_con table thead{
+	height: 46px;
+	width: 1200px;
+	border-bottom: 1px solid #efefef;
+	display: block;
+	line-height: 46px;
+	text-align: center;
+	background-color: #f9f9f9;
+	margin-bottom: 10px;
+}
+#list .list_con table thead tr td:nth-child(1){
+	height: 46px;
+	width: 50px;
+}
+#list .list_con table thead tr td:nth-child(2){
+	height: 46px;
+	width: 650px;
+}
+#list .list_con table thead tr td:nth-child(3){
+	height: 46px;
+	width: 120px;
+}
+#list .list_con table thead tr td:nth-child(4){
+	height: 46px;
+	width: 120px;
+}
+#list .list_con table thead tr td:nth-child(5){
+	height: 46px;
+	width: 120px;
+}
+#list .list_con table thead tr td:nth-child(6){
+	height: 46px;
+	width: 80px;
+}
+#list .list_con table tbody{
+	display: block;
+	height: 180px;
+	width: 1200px;
+	text-align: center;
+	padding-top:16px;
+}
+#list .list_con table tbody tr:nth-child(1){
+	height: 40px;
+	width: 1178px;	
+	padding-right: 20px;
+	background: #ffe5ee;
+	line-height: 40px;
+	display: inline-block;
+	font-size: 14px;
+	border-top: 2px solid #ff6699;
+}
+#list .list_con table tbody tr:nth-child(1) td:nth-child(1){
+	height: 40px;
+	width: 125px;
+	padding-left: 5px;
+	float: left;
+	color: #333333;
+}
+#list .list_con table tbody tr:nth-child(1) td:nth-child(1) a{
+	color: #333333;
+}
+#list .list_con table tbody tr:nth-child(1) td:nth-child(2){
+	height: 40px;
+	width:134px ;
+	float: right;
+	margin: 10px 0;
+}
+#list .list_con table tbody tr:nth-child(2){
+	height: 80px;
+	width: 1200px;
+	display: inline-block;
+	border-bottom: 1px dashed #ffbfd4;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(1){
+	height: 20px;
+	width: 50px;
+	
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(2){
+	height: 80px;
+	width: 650px;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(2) a{
+	display: inline-block;
+	height: 60px;
+	width: 650px;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(2) a .tu{
+	height: 60px;width: 60px;float: left;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(2) a .tu img{
+	width: 100%;
+	height: 100%;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(2) a .sm{
+	height: 20px;
+	width: 580px;
+	padding-left: 10px;
+	float: right;
+	text-align: left;
+	color: #333333;
+	line-height: 20px;
+	font-size: 14px;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(3){
+	height: 30px;
+	width: 120px;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(4){
+	height: 30px;
+	width: 120px;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(4) span{
+	display: inline-block;
+	height: 30px;
+	width: 13px;
+	text-align: center;
+	line-height: 30px;
+	background: #fff0e7;
+	float: left;
+	border: 1px solid #ffe1d3;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(4) #add{
+	margin-left: 30px;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(4) input{
+	width: 26px;
+	float: left;
+	height: 30px;
+	border: 1px solid #efbba9;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(5){
+	height: 30px;
+	width: 120px;
+	color: #ef3577;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(6){
+	height: 30px;
+	width: 80px;
+}
+#list .list_con table tbody tr:nth-child(2) td:nth-child(6) a{
+	display: block;
+	color: #333333;
+	font-size: 14px;
+}
+#list .list_con table tbody tr:nth-child(3){
+	height: 40px;
+	width: 1180px;
+	padding-right: 20px;
+	line-height: 40px;
+	display: inline-block;
+
+}
+#list .list_con table tbody tr:nth-child(3) td{
+	height: 20px;
+	width: 1180px;
+}
+#list .list_con table tbody tr:nth-child(3) td .xiaoji{
+	min-width: 200px;
+	float: right;
+	/*text-align: right;*/
+}
+#list .list_con table tbody tr:nth-child(3) td .xiaoji span{
+	padding-left: 20px;
+	padding-right:5px ;
+	color: #ed3577;
+	
+}
+#list .list_con table tfoot{
+	height: 46px;
+	width: 1200px;
+	display: block;
+	line-height: 46px;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-top: 1px dashed #ffbfd4;
+}
+#list .list_con table tfoot tr{
+	
+	height: 46px;
+	width: 1180px;
+	margin-right: 20px;	
+}
+#list .list_con table tfoot tr td div{
+	width: 1180px;text-align: right;
+	font-size: 14px;
+}
+#list .list_con table tfoot tr td div span{
+	display: inline-block;
+	min-width: 60px;
+	padding: 0 10px;
+	color: pink;
+	font-size: 20px;
+}
+
+#next{
+	height: 78px;	
+}
+#next .next_con{
+	height: 78px;
+	width: 1200px;
+	overflow: hidden;	
+	margin: 0 auto;
+}
+#next .next_con a{
+	margin-top: 16px;
+	height: 36px;
+	width: 218px;
+	float: right;
+	background: #ff6699;
+	border: 1px solid #fb2f73;
+	color: white;
+	line-height: 36px;
+	text-align: center;
+}
